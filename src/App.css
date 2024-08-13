@@ -73,6 +73,10 @@
 
 
 @media all and (max-width: 500px){
+  /* .heading {
+    font-size: 40px;
+  } */
+
   .inputarea {
     margin: 25px 45px;
     display: flex;
