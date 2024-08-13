@@ -30,7 +30,7 @@
 }
 
 .inputfield {
-  width: 500px;
+  width: auto;
   border-radius: 8px;
   border: none;
 }
@@ -38,7 +38,7 @@
 .container1 {
   border-radius: 10px;
   background-color: whitesmoke;
-  width: 550px;
+  width: auto;
 }
 
 .head{
@@ -55,11 +55,7 @@
   color: rgb(65, 9, 117);
 }
 
-/* .btnholder {
-  
-  display: flex;
 
-} */
 
 .btn1 {
   background-color: rgb(56, 10, 99);

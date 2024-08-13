@@ -35,7 +35,7 @@ function App() {
               <label className='fw-bold fs-4'>Amount &#40;&#8377;&#41;</label>
               <input required type="text" placeholder="Enter Amount" className='p-3 inputfield' value={amount||""} onChange={(e)=>setAmount(e.target.value)} />
               <label className='fw-bold mt-5 fs-4'>Discount  &#40;&#37;&#41;</label>
-              <input required type="text" placeholder="Enter Discount %" className='p-3 inputfield' value={discpercent||""} onChange={(e)=>setDiscpercent(e.target.value)}  />
+              <input required type="text" placeholder="Enter Discount %" className='p-3 inputfield ' value={discpercent||""} onChange={(e)=>setDiscpercent(e.target.value)}  />
              <div className='btnholder d-flex justify-content-evenly mt-3'>
                 <button className='btn1' onClick={(e)=>calculate(e)}>Calculate</button>
                 <button className='btn1' onClick={(e)=>reset(e)}>Reset</button>
