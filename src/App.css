@@ -38,7 +38,7 @@
 .container1 {
   border-radius: 10px;
   background-color: whitesmoke;
-  width: auto;
+  width:550px;
 }
 
 .head{
@@ -69,4 +69,40 @@
 .btn1:hover {
   background-color: whitesmoke;
   color: rgb(56, 10, 99);
+}
+
+
+@media all and (max-width: 500px){
+  .inputarea {
+    margin: 25px 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputfield {
+    width: 200px;
+
+  }
+
+  .btnholder {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn1 {
+    margin-bottom:5px ;
+  }
+
+  .container1{
+    width: auto;
+    height:auto; 
+    margin-top: 10px;
+  }
+
+  .pricearea {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+  }
 }

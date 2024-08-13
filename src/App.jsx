@@ -49,7 +49,7 @@ function App() {
                   <h3>New Price</h3>
                   <p className=' price'>&#8377; {discamount}.00</p>
                   </div> 
-                  <div className='d-flex justify-content-evenly mt-5'>
+                  <div className='d-flex justify-content-evenly mt-5 pricearea'>
                     <div>
                       <h5 className='fw-semibold'>Amount Saved</h5>
                       <p className='text-center fs-3'>&#8377; {saved}.00</p>
