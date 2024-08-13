@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.app {
+  background-image: linear-gradient(to right, rgb(205, 147, 221),rgb(240, 201, 240));
+  padding: 20px;
+  margin: 20px 20px;
+  border-radius: 15px;
+  
+}
+
+.heading{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(6, 6, 65);
+}
+
+.desc {
+  text-align: center;
+  font-size: larger;
+  padding-top: 15px;
+}
+
+.inputarea {
+  margin: 100px 50px;
+}
+
+.inputfield {
+  width: 500px;
+  border-radius: 8px;
+  border: none;
+}
+
+.container1 {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  width: 550px;
+}
+
+.head{
+  background-color: rgb(65, 9, 117);
+  color: white;
+  box-shadow: 2px 4px 4px rgb(65, 9, 117);
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.price {
+  font-size: 50px;
+  font-weight: 600;
+  color: rgb(65, 9, 117);
+}
+
+/* .btnholder {
+  
+  display: flex;
+
+} */
+
+.btn1 {
+  background-color: rgb(56, 10, 99);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 15px;
+  border: none;
+  
+}
+
+.btn1:hover {
+  background-color: whitesmoke;
+  color: rgb(56, 10, 99);
+}
